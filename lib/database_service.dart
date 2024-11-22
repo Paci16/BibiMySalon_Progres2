@@ -10,7 +10,7 @@ class DatabaseService{
         "email": user.email, "telephone":user.telephone, "username":user.username, "password":user.password
       });
     }catch(e){
-      log(e.toString());
+      log("Login failed: $e");
     }
   }
 }
